@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply font-bold py-1 px-3 rounded-lg
+}
+
+.btn-light {
+    @apply text-gray-900 bg-gray-200 border-4 border-[#374eb2] hover:bg-gray-100
+}
+
+.card {
+    @apply border border-gray-300 rounded-xl text-center
+}
+
+.card-image {
+    @apply w-full h-[300px] md:h-[200px] bg-gray-100 rounded-xl relative
+}
+
+.card-image > button {
+    @apply absolute border-2 hover:bg-gray-300 font-semibold px-2 rounded-lg text-sm py-1 text-gray-700 right-2 top-2
+}
+
+.btn-detail {
+    @apply text-white bg-[#f7c100] border-4 border-[#374eb2] hover:bg-[#f7c100cf] italic rounded-lg
+}
+
+.box-detail {
+    @apply p-5 md:mt-10
+}
+
+.box-detail > h3 {
+    @apply font-bold md:text-2xl text-base text-[#374eb2] mb-4 mt-4 italic
+}
+
+.btn-release {
+    @apply text-white bg-red-700 border-4 border-[#374eb2] hover:bg-red-600 ml-2
+}
+
+.title-page {
+    @apply text-3xl md:text-5xl font-bold text-[#f7c100] italic
+}
+
+.subtitle-page {
+    @apply mt-3 font-bold md:text-3xl text-xl text-[#374eb2]
+}
+
+.alert-green {
+    @apply bg-green-600 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
+}
+
+.alert-red {
+    @apply bg-red-600 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
+}
+
+input {
+    @apply border p-2 w-full rounded-lg mb-2
+}
+
+.backdrop {
+    @apply w-full h-full bg-[#000000d1] fixed
+}
+
+.btn-submit {
+    @apply text-white bg-[#fd4217] border-4 border-[#fd6a17] hover:bg-[#fd4217b5]
+}

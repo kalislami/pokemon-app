@@ -1,0 +1,41 @@
+### read
+
+GET  http://localhost:3000/api/pokemon?per_page=12
+
+### create
+
+POST http://localhost:3000/api/pokemon
+Content-Type: application/json
+
+{
+  "pokemon_id" : 1,
+  "image" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "image_hover" : "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png",
+  "name" : "bulbasaur",
+  "original_name" : "bulbasaur",
+}
+
+### update
+
+PATCH  http://localhost:3000/api/pokemon?id=1
+
+{
+  "name" : "bulba gacoan"
+}
+
+### delete
+
+DELETE  http://localhost:3000/api/pokemon?id=1
+
+### put (not allowed)
+
+PUT  http://localhost:3000/api/pokemon
+
+### craete db
+
+GET  http://localhost:3000/api/createdb
+
+
+### pokemon get
+
+GET https://pokeapi.co/api/v2/pokemon/1
