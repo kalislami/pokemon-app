@@ -47,11 +47,11 @@
 }
 
 .alert-green {
-    @apply bg-green-600 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
+    @apply bg-green-600 z-50 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
 }
 
 .alert-red {
-    @apply bg-red-600 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
+    @apply bg-red-600 z-50 font-bold italic text-white fixed p-5 min-w-[300px] top-5 right-5 left-5 md:left-auto rounded-lg
 }
 
 input {

@@ -82,10 +82,6 @@ class ProductController {
         const next = currentPage >= totalPage ? null : `/api/pokemon?page=${currentPage + 1}&per_page=${perPage}`
         const prev = currentPage <= 1 ? null : `/api/pokemon?page=${currentPage - 1}&per_page=${perPage}`
 
-        console.log(`next: ${next}`);
-        console.log(`prev: ${prev}`);
-        
-
         return res.status(200).json({
             total: totalData.total,
             total_page: totalPage,
