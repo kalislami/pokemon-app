@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pokemon-app:
+    container_name: pokemon-app
+    build: 
+      dockerfile: Dockerfile
+    ports: 
+      - 777:3000
